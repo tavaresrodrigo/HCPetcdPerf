@@ -136,14 +136,3 @@ This project is inspired by and aims to help validate the etcd disk performance 
     * **Link:** [https://access.redhat.com/solutions/4885641](https://access.redhat.com/solutions/4885641)
     * **Summary:** This solution highlights the critical need for etcd to have fast disk response times, especially for write operations to its backing storage. It emphasizes that `wal_fsync_duration_seconds` p99 duration should ideally be less than 10ms for production workloads to ensure optimal etcd performance and cluster stability. Issues with disk speed can lead to frequent etcd alerts and overall cluster instability.
     * 
-## 🔗 Reference
-
-This project is inspired by and aims to help validate the etcd disk performance requirements outlined in the Red Hat Access Solution:
-
-* **"How to use 'fio' to check etcd disk performance in OpenShift"**
-    * **Link:** [https://access.redhat.com/solutions/4885641](https://access.redhat.com/solutions/4885641)
-    * **Summary:** This solution highlights the critical need for etcd to have fast disk response times, especially for write operations to its backing storage. It emphasizes that `wal_fsync_duration_seconds` p99 duration should ideally be less than 10ms for production workloads to ensure optimal etcd performance and cluster stability. Issues with disk speed can lead to frequent etcd alerts and overall cluster instability.
-
-## 📄 License
-
-This project is licensed under the Apache License 2.0. See the `LICENSE` file for details.
